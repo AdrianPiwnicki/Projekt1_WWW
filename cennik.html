@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="fontello/css/fontello.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <title>Cennik</title>
+</head>
+<body>
+<header>
+    <h1 class="logo">KOREPETYCJE MATEMATYCZNE</h1>
+    <nav id="nawigacja">
+        <ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="dzialy_matematyczne.html">Działy matematyki</a></li>
+            <li><a href="slynni_matematycy.html">Słynni matematycy</a></li>
+            <li><a href="cennik.html">Cennik</a></li>
+            <li><a href="zapisz_sie.html">Zapisz się!</a></li>
+        </ul>
+    </nav>
+</header>
+<aside id="lewy">
+    <audio controls preload="none">
+        <source src="media/152-front-music.pl.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <p>Muzyka: bank muzyki Front Music </p><a href="https://www.front-music.pl" target="_blank">www.front-music.pl</a>
+</aside>
+<main>
+    <article id="cennik">
+        <h2>Cennik</h2>
+        <table>
+            <caption>Tabela - wykaz cen w zależności od rodzaju szkoły i korepetycji</caption>
+            <colgroup>
+                <col id="rodzaj_szkoły">
+                <col id="indywidualne">
+                <col id="grupowe">
+            </colgroup>
+            <tr>
+                <th scope="col">Rodzaj szkoły</th>
+                <th scope="col">Indywidualne</th>
+                <th scope="col">Grupowe</th>
+            </tr>
+            <tr>
+                <th scope="row">Szkoła Podstawowa</th>
+                <td>30 zł/h</td>
+                <td>20 zł/h</td>
+            </tr>
+            <tr>
+                <th scope="row">Gimnazjum</th>
+                <td>30 zł/h</td>
+                <td>20 zł/h</td>
+            </tr>
+            <tr>
+                <th scope="row">Szkoła Średnia</th>
+                <td>40 zł/h</td>
+                <td>30 zł/h</td>
+            </tr>
+            <tr>
+                <th scope="row">Szkoła Wyższa</th>
+                <td>50 zł/h</td>
+                <td>40 zł/h</td>
+            </tr>
+            <tr>
+                <th scope="row">Szkoła Policealna</th>
+                <td>40 zł/h</td>
+                <td>30 zł/h</td>
+            </tr>
+        </table>
+    </article>
+</main>
+<aside id="prawy">
+    <nav>
+        <ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="dzialy_matematyczne.html">Działy matematyki</a></li>
+            <li><a href="slynni_matematycy.html">Słynni matematycy</a></li>
+            <li><a href="cennik.html">Cennik</a></li>
+            <li><a href="zapisz_sie.html">Zapisz się!</a></li>
+        </ul>
+    </nav>
+</aside>
+<div class="socials">
+    <div class="media_ikony">
+        <div class="fb"><i class="icon-facebook-official"></i></div>
+        <div class="yt"><i class="icon-youtube-squared"></i></div>
+        <div class="tw"><i class="icon-twitter"></i></div>
+        <div class="gp"><i class="icon-gplus"></i></div>
+        <div style="clear:both"></div>
+    </div>
+</div>
+<footer>
+    <p>Autor: Adrian Piwnicki</p>
+</footer>
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        const NavY = $('#nawigacja').offset().top;
+        const stickyNav = function () {
+            const Scrolly = $(window).scrollTop();
+            if (Scrolly > NavY) {
+                $('#nawigacja').addClass('sticky');
+            } else {
+                $('#nawigacja').removeClass('sticky');
+            }
+        };
+        stickyNav();
+        $(window).scroll(function () {
+            stickyNav();
+        });
+    });
+</script>
+</body>
+</html>

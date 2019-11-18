@@ -1,0 +1,593 @@
+/* reset CSS */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol,
+ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details,
+embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* główne elementy stron */
+
+body {
+    background-size: contain;
+    background: url("img/tlo.jpg") repeat fixed center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1.logo {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#nawigacja {
+    background-color: #128870;
+    text-align: center;
+    font-weight: 700;
+    box-shadow: 10px 19px 10px rgba(0, 0, 0, 0.82);
+    border-radius: 5px;
+}
+
+#nawigacja ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    min-height: 36px;
+    line-height: 200%;
+}
+
+#nawigacja li {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 2px solid rgba(0, 0, 0, 0.82);
+}
+
+#nawigacja li:first-child {
+    border-left: 2px solid rgba(0, 0, 0, 0.82);
+}
+
+#nawigacja a {
+    color: black;
+    text-decoration: none;
+}
+
+#nawigacja a:hover {
+    color: white;
+}
+
+.sticky{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+main {
+    width: 60%;
+    float: left;
+}
+
+#lewy {
+    width: 18%;
+    background-color: rgba(0, 0, 0, 0.38);
+    float: left;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.82);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#lewy audio {
+    margin: 5%;
+    width: 80%;
+}
+
+#lewy a:link {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#lewy a:hover {
+    color: white;
+}
+
+#lewy a:visited {
+    font-weight: 700;
+    color: #128870;
+}
+
+#prawy {
+    width: 18%;
+    background-color: rgba(0, 0, 0, 0.38);
+    float: left;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.82);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#prawy nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#prawy nav ul a {
+    display: block;
+    border: 2px solid #128890;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background: #128870 url(img/nav1.png) no-repeat left center;
+    padding: 5px;
+    margin: 3px;
+}
+
+#prawy nav ul a:hover {
+    color: white;
+    background: #128870 url(img/nav2.png) no-repeat left center;
+    transform: scale(1.1);
+}
+
+.socials{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.70);
+    float: left;
+}
+
+.media_ikony{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fb{
+    width: 25%;
+    height: 150px;
+    float: left;
+}
+
+.fb:hover{
+    background-color: #4668b3;
+}
+
+.yt{
+    width: 25%;
+    height: 150px;
+    float: left;
+}
+
+.yt:hover{
+    background-color: #d94348;
+}
+
+.tw{
+    width: 25%;
+    height: 150px;
+    float: left;
+}
+
+.tw:hover{
+    background-color: #3095d3;
+}
+
+.gp{
+    width: 25%;
+    height: 150px;
+    float: left;
+}
+
+.gp:hover{
+    background-color: #d95333;
+}
+
+footer {
+    float: left;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.86);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width: 1920px) {
+    main {
+        margin-bottom: 10%
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+    aside {
+        display: none
+    }
+    main{
+        width: 100%;
+    }
+    .media_ikony{
+        width: 500px;
+    }
+    .sticky{
+        display: none;
+    }
+}
+
+/* ============================================================== */
+/* CSS do zawartości w index.html */
+
+#glowna {
+    width: 92%;
+    margin: 5% auto 5% auto;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.38);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.82);
+    border-radius: 10px;
+}
+
+#animacja {
+    font-size: 24px;
+    margin: 3% auto 3% auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+#animacja span {
+    display: inline-block;
+    width: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    border: 2px solid rgba(0, 0, 0, 0.82);
+    background-color: #128870;
+    border-radius: 30px;
+    animation: animowane_witaj 5s linear infinite;
+}
+
+#animacja span:nth-child(1) {
+    animation-delay: 250ms;
+}
+
+#animacja span:nth-child(2) {
+    animation-delay: 500ms;
+}
+
+#animacja span:nth-child(3) {
+    animation-delay: 750ms;
+}
+
+#animacja span:nth-child(4) {
+    animation-delay: 1000ms;
+}
+
+#animacja span:nth-child(5) {
+    animation-delay: 1250ms;
+}
+
+@keyframes animowane_witaj {
+    0% {
+        transform: rotate(0);
+    }
+    20% {
+        transform: rotate(-360deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+#glowna h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+#glowna h3 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+/* ============================================================== */
+/* CSS do zawartości w slynni_matematycy.html */
+
+#slynni_matematycy {
+    width: 92%;
+    margin: 5% auto 5% auto;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.38);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.82);
+    border-radius: 10px;
+}
+
+#slynni_matematycy h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+#slynni_matematycy h3 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.matematycy {
+    display: inline-block;
+    margin: 3% 3% 3% 3%;
+    padding: 0;
+}
+
+.matematycy img {
+    width: 170px;
+    height: 220px;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+.matematycy img:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#slynni_matematycy h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#slynni_matematycy a {
+    text-decoration: none;
+    color: black;
+}
+
+#slynni_matematycy a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+/* ============================================================== */
+/* CSS do zawartości w zapisz_sie.html */
+
+#formularz {
+    width: 92%;
+    margin: 5% auto 5% auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.38);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.82);
+    border-radius: 10px;
+}
+
+legend {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 24px;
+    margin: 10px;
+    font-weight: 400;
+    color: white;
+}
+
+input[type=text], [type=tel], [type=email] {
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    box-sizing: border-box;
+    font-weight: 400;
+    outline: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+input[type=submit], [type=reset] {
+    background-color: #128870;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 30%;
+    font-size: 24px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+}
+
+input[type=submit]:hover, [type=reset]:hover {
+    background-color: #128890;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.70);
+}
+
+input[type=text]:focus, [type=tel]:focus, [type=email]:focus {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.70);
+    border: 2px solid #128890;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#formularz p {
+    color: white;
+    margin-top: 10px;
+}
+
+/* ============================================================== */
+/* CSS do zawartości w cennik.html */
+
+#cennik {
+    width: 92%;
+    margin: 5% auto 5% auto;
+    background-color: rgba(0, 0, 0, 0.38);
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.82);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#cennik h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+caption {
+    font-size: 20px;
+    color: black;
+    margin: 3px;
+    font-weight: 400;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 18px;
+    color: white;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.82);
+    border-radius: 5px;
+}
+
+table th {
+    border: 2px solid #128890;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.77);
+    width: 19.1%;
+    height: 20px;
+}
+
+table td {
+    border: 2px solid #128870;
+    padding: 5px;
+}
+
+tr:nth-child(odd) {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+tr:nth-child(even) {
+    background: rgba(0, 0, 0, 0.66);
+}
+
+/* ============================================================== */
+/* CSS do zawartości w dzialy_matematyczne.html */
+
+#d_matematyki {
+    width: 92%;
+    margin: 5% auto 5% auto;
+    background-color: rgba(0, 0, 0, 0.38);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.82);
+}
+
+#d_matematyki h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+#d_matematyki h3 {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+#dzialy {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#dzialy ol li {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.82);
+    list-style-type: none;
+}
+
+#dzialy ol li:hover {
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+#dzialy ol li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#dzialy ol li a:hover {
+    color: white;
+}
+
+.opis_dzialu {
+    margin: 20px 10px;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#d_matematyki .opis_dzialu h2 {
+    margin: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+#d_matematyki .opis_dzialu h3 {
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-align: left;
+}
+
+#d_matematyki p {
+    text-align: center;
+}
+
+#d_matematyki p a {
+    text-decoration: none;
+    color: black;
+}
+
+#d_matematyki p a:hover {
+    color: white;
+}

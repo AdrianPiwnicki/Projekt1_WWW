@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="fontello/css/fontello.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <title>Działy Matematyczne</title>
+</head>
+<body>
+<header>
+    <h1 class="logo">KOREPETYCJE MATEMATYCZNE</h1>
+    <nav id="nawigacja" aria-label="nawigacja">
+        <ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="dzialy_matematyczne.html">Działy matematyki</a></li>
+            <li><a href="slynni_matematycy.html">Słynni matematycy</a></li>
+            <li><a href="cennik.html">Cennik</a></li>
+            <li><a href="zapisz_sie.html">Zapisz się!</a></li>
+        </ul>
+    </nav>
+</header>
+<aside id="lewy">
+    <audio controls preload="none">
+        <source src="media/152-front-music.pl.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <p>Muzyka: bank muzyki Front Music </p><a href="https://www.front-music.pl" target="_blank">www.front-music.pl</a>
+</aside>
+<main>
+    <article id="d_matematyki">
+        <header>
+            <h2>Działy matematyki</h2>
+            <h3>Oto główne działy matematyki jakie obowiązują na całym świecie:</h3>
+            <nav id="dzialy" aria-label="dzialy">
+                <ol>
+                    <li><a href="#logika">Logika i dowody matematyczne</a></li>
+                    <li><a href="#algebra">Algebra</a></li>
+                    <li><a href="#analiza">Analiza</a></li>
+                    <li><a href="#geometria">Geometria</a></li>
+                    <li><a href="#dyskretna">Matematyka Dyskretna</a></li>
+                    <li><a href="#rachunek">Statystyka i Rachunek Prawdopodobieństwa</a></li>
+                </ol>
+            </nav>
+        </header>
+        <section class="opis_dzialu">
+            <h2><a id="logika">logika i dowody matematyczne</a></h2>
+            <h3>Podstawy matematyki definiują język matematyki, sposoby przeprowadzania dowodów matematycznych,
+                metody budowania jej struktur i teorii oraz określają własności jej podstawowych obiektów, takich jak
+                zbiór.</h3>
+        </section>
+        <section class="opis_dzialu">
+            <h2><a id="algebra">algebra</a></h2>
+            <h3>Algebra to dział matematyki zajmujący się strukturami algebraicznymi, porządkowymi, relacjami i
+                uogólniający rozmaite własności działań wspólne dla różnych zbiorów, w których działania
+                takie mogą być przeprowadzane.</h3>
+        </section>
+        <section class="opis_dzialu">
+            <h2><a id="analiza">analiza</a></h2>
+            <h3>Analiza matematyczna bada pochodne, całki, miary, sumy szeregów, równania różniczkowe i
+                inne pojęcia związane najogólniej mówiąc z przechodzeniem do granicy.</h3>
+        </section>
+        <section class="opis_dzialu">
+            <h2><a id="geometria">geometria</a></h2>
+            <h3>Geometria zajmowała się kolejno przestrzeniami euklidesowymi, sferycznymi, afinicznymi i rzutowymi,
+                hiperbolicznymi, ogólniej rozmaitościami Riemanna i w końcu stałą się dziedziną badającą dla wybranych
+                przekształceń ich niezmienniki, od najprostszych, takich jak odległość, pole powierzchni, miara kąta,
+                przez bardziej zaawansowane, jak krzywizna, punkt stały, czy wymiar.</h3>
+        </section>
+        <section class="opis_dzialu">
+            <h2><a id="dyskretna">matematyka dyskretna</a></h2>
+            <h3>Często (choć nie w MSC) wyróżnia się oddzielnie grupę dziedzin, które badają struktury nieciągłe,
+                sprowadzające się do zbiorów przeliczalnych. Do matematyki dyskretnej zalicza się m.in.
+                (wymienione także w odpowiednich miejscach klasyfikacji MSC)</h3>
+        </section>
+        <section class="opis_dzialu">
+            <h2><a id="rachunek">rachunek prawdopodobieństwa i statystyka</a></h2>
+            <h3>Statystyka zajmuje się wnioskowaniem o całej populacji nieco różniących się obiektów (np. ludzi)
+                na podstawie obserwacji części tej populacji (tzw. próby statystycznej).</h3>
+        </section>
+        <section>
+            <p>© Źródło: <a href="https://pl.wikipedia.org/wiki/Matematyka">wikipedia.org</a>
+                , <a href="https://pl.wikipedia.org/w/index.php?title=Matematyka&action=history">autorzy</a>
+                , licencja: <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0 Deed</a></p>
+        </section>
+    </article>
+</main>
+<aside id="prawy">
+    <nav>
+        <ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="dzialy_matematyczne.html">Działy matematyki</a></li>
+            <li><a href="slynni_matematycy.html">Słynni matematycy</a></li>
+            <li><a href="cennik.html">Cennik</a></li>
+            <li><a href="zapisz_sie.html">Zapisz się!</a></li>
+        </ul>
+    </nav>
+</aside>
+<div class="socials">
+    <div class="media_ikony">
+        <div class="fb"><i class="icon-facebook-official"></i></div>
+        <div class="yt"><i class="icon-youtube-squared"></i></div>
+        <div class="tw"><i class="icon-twitter"></i></div>
+        <div class="gp"><i class="icon-gplus"></i></div>
+        <div style="clear:both"></div>
+    </div>
+</div>
+<footer>
+    <p>Autor: Adrian Piwnicki</p>
+</footer>
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        const NavY = $('#nawigacja').offset().top;
+        const stickyNav = function () {
+            const Scrolly = $(window).scrollTop();
+            if (Scrolly > NavY) {
+                $('#nawigacja').addClass('sticky');
+            } else {
+                $('#nawigacja').removeClass('sticky');
+            }
+        };
+        stickyNav();
+        $(window).scroll(function () {
+            stickyNav();
+        });
+    });
+</script>
+</body>
+</html>
