@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="313360d3-337d-43d0-b65c-cdc17ef4370c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zapisz_sie.html" beforeDir="false" afterPath="$PROJECT_DIR$/zapisz_sie.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,7 +99,7 @@
       <workItem from="1574193179754" duration="1759000" />
       <workItem from="1574196544890" duration="727000" />
       <workItem from="1574260133353" duration="2175000" />
-      <workItem from="1574280272922" duration="4240000" />
+      <workItem from="1574280272922" duration="4367000" />
     </task>
     <servers />
   </component>
