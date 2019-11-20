@@ -82,13 +82,13 @@
 <script src="js/jquery-3.4.1.min.js"></script>
 <script>
     $(document).ready(function () {
-        const NavY = $('#nawigacja').offset().top;
+        const NavY = $('.nawigacja').offset().top;
         const stickyNav = function () {
             const Scrolly = $(window).scrollTop();
             if (Scrolly > NavY) {
-                $('#nawigacja').addClass('sticky');
+                $('.nawigacja').addClass('sticky');
             } else {
-                $('#nawigacja').removeClass('sticky');
+                $('.nawigacja').removeClass('sticky');
             }
         };
         stickyNav();
