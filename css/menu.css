@@ -14,7 +14,7 @@ embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, sect
 
 body {
     background-size: contain;
-    background: url("img/tlo.jpg") repeat fixed center;
+    background: url("../img/tlo.jpg") repeat fixed center;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -95,10 +95,16 @@ main {
     width: 80%;
 }
 
+#lewy video{
+    width: 100%;
+    margin-top: 10px;
+}
+
 #lewy a:link {
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     color: black;
+    margin-bottom: 10px;
 }
 
 #lewy a:hover {
@@ -108,12 +114,6 @@ main {
 #lewy a:visited {
     font-weight: 700;
     color: #128870;
-}
-
-#lewy iframe{
-    width: 100%;
-    height: 350px;
-    margin-top: 5%;
 }
 
 #prawy {
@@ -142,14 +142,14 @@ main {
     font-weight: bold;
     text-decoration: none;
     color: black;
-    background: #128870 url(img/nav1.png) no-repeat left center;
+    background: #128870 url(../img/nav1.png) no-repeat left center;
     padding: 5px;
     margin: 8px;
 }
 
 #prawy nav ul a:hover {
     color: white;
-    background: #128870 url(img/nav2.png) no-repeat left center;
+    background: #128870 url(../img/nav2.png) no-repeat left center;
     transform: scale(1.1);
 }
 

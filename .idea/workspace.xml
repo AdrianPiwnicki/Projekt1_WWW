@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="313360d3-337d-43d0-b65c-cdc17ef4370c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cennik.html" beforeDir="false" afterPath="$PROJECT_DIR$/cennik.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dzialy_matematyczne.html" beforeDir="false" afterPath="$PROJECT_DIR$/dzialy_matematyczne.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fontello/css/fontello.css" beforeDir="false" afterPath="$PROJECT_DIR$/fontello/css/fontello.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slynni_matematycy.html" beforeDir="false" afterPath="$PROJECT_DIR$/slynni_matematycy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zapisz_sie.html" beforeDir="false" afterPath="$PROJECT_DIR$/zapisz_sie.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,22 +35,23 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fontello" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\PSWWW\js" />
+      <recent name="G:\PSWWW\css" />
+      <recent name="D:\PSWWW" />
+      <recent name="G:\PSWWW\CSS" />
+      <recent name="G:\PSWWW" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PSWWW\fontello" />
       <recent name="D:\PSWWW\img" />
       <recent name="D:\PSWWW" />
       <recent name="G:\PSWWW" />
       <recent name="C:\Users\Adrian\Desktop\PSWWW" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PSWWW" />
-      <recent name="G:\PSWWW\CSS" />
-      <recent name="G:\PSWWW" />
-      <recent name="C:\Users\Adrian\Desktop\PSWWW\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -95,7 +104,9 @@
       <workItem from="1574100485520" duration="8858000" />
       <workItem from="1574117829910" duration="3995000" />
       <workItem from="1574193179754" duration="1759000" />
-      <workItem from="1574196544890" duration="506000" />
+      <workItem from="1574196544890" duration="727000" />
+      <workItem from="1574260133353" duration="2175000" />
+      <workItem from="1574280272922" duration="1874000" />
     </task>
     <servers />
   </component>
