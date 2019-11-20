@@ -28,7 +28,7 @@ h1.logo {
     text-transform: uppercase;
 }
 
-#nawigacja {
+.nawigacja {
     background-color: #128870;
     text-align: center;
     font-weight: 700;
@@ -36,7 +36,7 @@ h1.logo {
     border-radius: 5px;
 }
 
-#nawigacja ul {
+.nawigacja ul {
     list-style-type: none;
     margin: 0;
     padding: 10px;
@@ -45,23 +45,23 @@ h1.logo {
     line-height: 200%;
 }
 
-#nawigacja li {
+.nawigacja li {
     display: inline;
     padding-left: 20px;
     padding-right: 20px;
     border-right: 2px solid rgba(0, 0, 0, 0.82);
 }
 
-#nawigacja li:first-child {
+.nawigacja li:first-child {
     border-left: 2px solid rgba(0, 0, 0, 0.82);
 }
 
-#nawigacja a {
+.nawigacja a {
     color: black;
     text-decoration: none;
 }
 
-#nawigacja a:hover {
+.nawigacja a:hover {
     color: white;
 }
 
@@ -78,7 +78,7 @@ main {
     float: left;
 }
 
-#lewy {
+.lewy {
     width: 18%;
     background-color: rgba(0, 0, 0, 0.38);
     float: left;
@@ -90,33 +90,28 @@ main {
     text-align: center;
 }
 
-#lewy audio {
+.lewy audio {
     margin: 5%;
     width: 80%;
 }
 
-#lewy video{
-    width: 100%;
-    margin-top: 10px;
-}
-
-#lewy a:link {
+.lewy a:link {
     font-size: 15px;
     text-decoration: none;
     color: black;
     margin-bottom: 10px;
 }
 
-#lewy a:hover {
+.lewy a:hover {
     color: white;
 }
 
-#lewy a:visited {
+.lewy a:visited {
     font-weight: 700;
     color: #128870;
 }
 
-#prawy {
+.prawy {
     width: 18%;
     background-color: rgba(0, 0, 0, 0.38);
     float: left;
@@ -129,13 +124,13 @@ main {
     font-size: 15px;
 }
 
-#prawy nav ul {
+.prawy nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-#prawy nav ul a {
+.prawy nav ul a {
     display: block;
     border: 2px solid #128890;
     text-align: center;
@@ -147,7 +142,7 @@ main {
     margin: 8px;
 }
 
-#prawy nav ul a:hover {
+.prawy nav ul a:hover {
     color: white;
     background: #128870 url(../img/nav2.png) no-repeat left center;
     transform: scale(1.1);
@@ -242,7 +237,7 @@ footer {
 /* ============================================================== */
 /* CSS do zawartości w index.html */
 
-#glowna {
+.glowna {
     width: 92%;
     margin: 5% auto 5% auto;
     text-align: center;
@@ -252,14 +247,14 @@ footer {
     border-radius: 10px;
 }
 
-#animacja {
+.animacja {
     font-size: 24px;
     margin: 3% auto 3% auto;
     text-align: center;
     font-weight: 700;
 }
 
-#animacja span {
+.animacja span {
     display: inline-block;
     width: 40px;
     line-height: 40px;
@@ -270,23 +265,23 @@ footer {
     animation: animowane_witaj 5s linear infinite;
 }
 
-#animacja span:nth-child(1) {
+.animacja span:nth-child(1) {
     animation-delay: 250ms;
 }
 
-#animacja span:nth-child(2) {
+.animacja span:nth-child(2) {
     animation-delay: 500ms;
 }
 
-#animacja span:nth-child(3) {
+.animacja span:nth-child(3) {
     animation-delay: 750ms;
 }
 
-#animacja span:nth-child(4) {
+.animacja span:nth-child(4) {
     animation-delay: 1000ms;
 }
 
-#animacja span:nth-child(5) {
+.animacja span:nth-child(5) {
     animation-delay: 1250ms;
 }
 
@@ -302,16 +297,21 @@ footer {
     }
 }
 
-#glowna h2 {
+.glowna h2 {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 15px;
     letter-spacing: 2px;
 }
 
-#glowna h3 {
+.glowna h3 {
     font-size: 26px;
     font-weight: 400;
+}
+
+.glowna video{
+    width: 100%;
+    margin-top: 20px;
 }
 
 /* ============================================================== */
