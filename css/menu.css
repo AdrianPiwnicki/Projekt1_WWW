@@ -382,7 +382,7 @@ figcaption {
 /* ============================================================== */
 /* CSS do zawartości w zapisz_sie.html */
 
-#formularz {
+.formularz {
     width: 92%;
     margin: 5% auto 5% auto;
     padding: 10px;
@@ -445,7 +445,7 @@ input[type=text]:focus, [type=tel]:focus, [type=email]:focus {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-#formularz p {
+.formularz p {
     color: white;
     margin-top: 10px;
 }
