@@ -317,7 +317,7 @@ footer {
 /* ============================================================== */
 /* CSS do zawartości w slynni_matematycy.html */
 
-#slynni_matematycy {
+.slynni_matematycy {
     width: 92%;
     margin: 5% auto 5% auto;
     text-align: center;
@@ -327,14 +327,14 @@ footer {
     border-radius: 10px;
 }
 
-#slynni_matematycy h2 {
+.slynni_matematycy h2 {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 15px;
     letter-spacing: 2px;
 }
 
-#slynni_matematycy h3 {
+.slynni_matematycy h3 {
     font-size: 26px;
     font-weight: 400;
 }
@@ -363,17 +363,17 @@ figcaption {
     text-align: center;
 }
 
-#slynni_matematycy h4 {
+.slynni_matematycy h4 {
     font-size: 18px;
     font-weight: 400;
 }
 
-#slynni_matematycy a {
+.slynni_matematycy a {
     text-decoration: none;
     color: black;
 }
 
-#slynni_matematycy a:hover {
+.slynni_matematycy a:hover {
     text-decoration: none;
     color: white;
     font-weight: 400;
