@@ -453,7 +453,7 @@ input[type=text]:focus, [type=tel]:focus, [type=email]:focus {
 /* ============================================================== */
 /* CSS do zawartości w cennik.html */
 
-#cennik {
+.cennik {
     width: 92%;
     margin: 5% auto 5% auto;
     background-color: rgba(0, 0, 0, 0.38);
@@ -463,7 +463,7 @@ input[type=text]:focus, [type=tel]:focus, [type=email]:focus {
     padding: 10px;
 }
 
-#cennik h2 {
+.cennik h2 {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 15px;
@@ -509,7 +509,7 @@ tr:nth-child(even) {
 /* ============================================================== */
 /* CSS do zawartości w dzialy_matematyczne.html */
 
-#d_matematyki {
+.d_matematyki {
     width: 92%;
     margin: 5% auto 5% auto;
     background-color: rgba(0, 0, 0, 0.38);
@@ -518,7 +518,7 @@ tr:nth-child(even) {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.82);
 }
 
-#d_matematyki h2 {
+.d_matematyki h2 {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
@@ -526,14 +526,14 @@ tr:nth-child(even) {
     letter-spacing: 2px;
 }
 
-#d_matematyki h3 {
+.d_matematyki h3 {
     margin-left: 5px;
     margin-right: 5px;
     font-size: 26px;
     font-weight: 400;
 }
 
-#dzialy {
+.dzialy {
     width: 98%;
     margin-left: auto;
     margin-right: auto;
@@ -542,25 +542,25 @@ tr:nth-child(even) {
     text-align: center;
 }
 
-#dzialy ol li {
+.dzialy ol li {
     margin-top: 2px;
     margin-bottom: 2px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.82);
     list-style-type: none;
 }
 
-#dzialy ol li:hover {
+.dzialy ol li:hover {
     background-color: rgba(0, 0, 0, 0.45);
 }
 
-#dzialy ol li a {
+.dzialy ol li a {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
-#dzialy ol li a:hover {
+.dzialy ol li a:hover {
     color: white;
 }
 
@@ -571,7 +571,7 @@ tr:nth-child(even) {
     padding: 5px;
 }
 
-#d_matematyki .opis_dzialu h2 {
+.d_matematyki .opis_dzialu h2 {
     margin: 10px;
     text-align: left;
     text-transform: uppercase;
@@ -579,22 +579,22 @@ tr:nth-child(even) {
     font-size: 28px;
 }
 
-#d_matematyki .opis_dzialu h3 {
+.d_matematyki .opis_dzialu h3 {
     font-weight: 400;
     letter-spacing: 2px;
     font-size: 22px;
     text-align: left;
 }
 
-#d_matematyki p {
+.d_matematyki p {
     text-align: center;
 }
 
-#d_matematyki p a {
+.d_matematyki p a {
     text-decoration: none;
     color: black;
 }
 
-#d_matematyki p a:hover {
+.d_matematyki p a:hover {
     color: white;
 }

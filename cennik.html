@@ -2,15 +2,18 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="projekt na pawww">
+    <meta name="author" content="Adrian Piwnicki">
+    <meta name="viewport" content="initial-scale=0.8">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="fontello/css/fontello.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
     <title>Cennik</title>
 </head>
 <body>
 <header>
     <h1 class="logo">KOREPETYCJE MATEMATYCZNE</h1>
-    <nav id="nawigacja">
+    <nav class="nawigacja">
         <ul>
             <li><a href="index.html">Strona główna</a></li>
             <li><a href="dzialy_matematyczne.html">Działy matematyki</a></li>
@@ -20,20 +23,15 @@
         </ul>
     </nav>
 </header>
-<aside id="lewy">
+<aside class="lewy">
     <audio controls preload="none">
         <source src="media/152-front-music.pl.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
     <p>Muzyka: bank muzyki Front Music </p><a href="https://www.front-music.pl">www.front-music.pl</a>
-    <iframe src="https://www.youtube.com/embed/UhYDhuXiDE8"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
-    <p> Źródło: youtube.com</p>
-    <p>autor: Patryk Piwnicki</p>
 </aside>
 <main>
-    <article id="cennik">
+    <article class="cennik">
         <h2>Cennik</h2>
         <table>
             <caption>Tabela - wykaz cen w zależności od rodzaju szkoły i korepetycji</caption>
@@ -75,7 +73,7 @@
         </table>
     </article>
 </main>
-<aside id="prawy">
+<aside class="prawy">
     <nav>
         <ul>
             <li><a href="index.html">Strona główna</a></li>
@@ -101,13 +99,13 @@
 <script src="js/jquery-3.4.1.min.js"></script>
 <script>
     $(document).ready(function () {
-        const NavY = $('#nawigacja').offset().top;
+        const NavY = $('.nawigacja').offset().top;
         const stickyNav = function () {
             const Scrolly = $(window).scrollTop();
             if (Scrolly > NavY) {
-                $('#nawigacja').addClass('sticky');
+                $('.nawigacja').addClass('sticky');
             } else {
-                $('#nawigacja').removeClass('sticky');
+                $('.nawigacja').removeClass('sticky');
             }
         };
         stickyNav();
