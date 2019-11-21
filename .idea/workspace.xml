@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="313360d3-337d-43d0-b65c-cdc17ef4370c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dzialy_matematyczne.html" beforeDir="false" afterPath="$PROJECT_DIR$/dzialy_matematyczne.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,19 +31,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\PSWWW\js" />
-      <recent name="G:\PSWWW\css" />
-      <recent name="D:\PSWWW" />
-      <recent name="G:\PSWWW\CSS" />
-      <recent name="G:\PSWWW" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PSWWW\fontello" />
       <recent name="D:\PSWWW\img" />
       <recent name="D:\PSWWW" />
       <recent name="G:\PSWWW" />
       <recent name="C:\Users\Adrian\Desktop\PSWWW" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\PSWWW\js" />
+      <recent name="G:\PSWWW\css" />
+      <recent name="D:\PSWWW" />
+      <recent name="G:\PSWWW\CSS" />
+      <recent name="G:\PSWWW" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -102,7 +101,7 @@
       <workItem from="1574280272922" duration="7413000" />
       <workItem from="1574336888232" duration="832000" />
       <workItem from="1574361835678" duration="454000" />
-      <workItem from="1574362464123" duration="1380000" />
+      <workItem from="1574362464123" duration="2107000" />
     </task>
     <servers />
   </component>

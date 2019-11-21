@@ -219,7 +219,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 480px) and (max-width: 1024px) {
+@media screen and (min-width: 320px) and (max-width: 1024px) {
     aside {
         display: none
     }
