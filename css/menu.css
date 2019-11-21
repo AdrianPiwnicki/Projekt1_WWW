@@ -579,7 +579,7 @@ tr:nth-child(even) {
     font-size: 28px;
 }
 
-.d_matematyki .opis_dzialu h3 {
+.d_matematyki .opis_dzialu p {
     font-weight: 400;
     letter-spacing: 2px;
     font-size: 22px;
