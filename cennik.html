@@ -35,40 +35,35 @@
         <h2>Cennik</h2>
         <table>
             <caption>Tabela - wykaz cen w zależności od rodzaju szkoły i korepetycji</caption>
-            <colgroup>
-                <col id="rodzaj_szkoły">
-                <col id="indywidualne">
-                <col id="grupowe">
-            </colgroup>
             <tr>
-                <th scope="col">Rodzaj szkoły</th>
-                <th scope="col">Indywidualne</th>
-                <th scope="col">Grupowe</th>
+                <th scope="col" id="szkola">Rodzaj szkoły</th>
+                <th scope="col" id="indywidualne">Indywidualne</th>
+                <th scope="col" id="grupowe">Grupowe</th>
             </tr>
             <tr>
-                <th scope="row">Szkoła Podstawowa</th>
-                <td>30 zł/h</td>
-                <td>20 zł/h</td>
+                <th scope="row" id="podstawowa" headers="szkola">Szkoła Podstawowa</th>
+                <td headers="podstawowa indywidualne">30 zł/h</td>
+                <td headers="podstawowa grupowe">20 zł/h</td>
             </tr>
             <tr>
-                <th scope="row">Gimnazjum</th>
-                <td>30 zł/h</td>
-                <td>20 zł/h</td>
+                <th scope="row" id="gimnazjum" headers="szkola">Gimnazjum</th>
+                <td headers="gimnazjum indywidualne">30 zł/h</td>
+                <td headers="gimnazjum grupowe">20 zł/h</td>
             </tr>
             <tr>
-                <th scope="row">Szkoła Średnia</th>
-                <td>40 zł/h</td>
-                <td>30 zł/h</td>
+                <th scope="row" id="srednia" headers="szkola">Szkoła Średnia</th>
+                <td headers="srednia indywidualne">40 zł/h</td>
+                <td headers="srednia grupowe">30 zł/h</td>
             </tr>
             <tr>
-                <th scope="row">Szkoła Wyższa</th>
-                <td>50 zł/h</td>
-                <td>40 zł/h</td>
+                <th scope="row" id="wyzsza" headers="szkola">Szkoła Wyższa</th>
+                <td headers="wyzsza indywidualne">50 zł/h</td>
+                <td headers="wyzsza grupowe">40 zł/h</td>
             </tr>
             <tr>
-                <th scope="row">Szkoła Policealna</th>
-                <td>40 zł/h</td>
-                <td>30 zł/h</td>
+                <th scope="row" id="policealna" headers="szkola">Szkoła Policealna</th>
+                <td headers="policealna indywidualne">40 zł/h</td>
+                <td headers="policealna grupowe">30 zł/h</td>
             </tr>
         </table>
     </article>
