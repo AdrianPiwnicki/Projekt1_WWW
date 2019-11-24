@@ -146,6 +146,7 @@ main {
     color: white;
     background: #128870 url(../img/nav2.png) no-repeat left center;
     transform: scale(1.1);
+    -ms-transform: scale(1.1);
 }
 
 .socials{
@@ -288,12 +289,15 @@ footer {
 @keyframes animowane_witaj {
     0% {
         transform: rotate(0);
+        -ms-transform: rotate(0);
     }
     20% {
         transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
     }
     100% {
         transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
     }
 }
 
@@ -355,6 +359,7 @@ footer {
 .matematycy img:hover {
     opacity: 1;
     transform: scale(1.2);
+    -ms-transform: scale(1.2);
 }
 
 figcaption {
